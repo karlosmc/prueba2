@@ -32,12 +32,14 @@ public class TreetableExample extends JFrame {
         empList1.add(new Employee(1, "Kiran", doj, "emp1.jpg"));
         empList1.add(new Employee(2, "Prabhu", doj, "emp2.jpg"));
         empList1.add(new Employee(3, "Murugavel", doj, "emp1.jpg"));        
+        empList1.add(new Employee(4, "Carlos", doj, "emp2.jpg"));
         departmentList.add(new Department(1, "Sales", empList1));
 
         //create and add the second department with its list of Employee objects
         List<Employee> empList2 = new ArrayList();
-        empList2.add(new Employee(4, "Deiveegan", doj, "emp2.jpg"));
-        empList2.add(new Employee(5, "Saravanan", doj, "emp1.jpg"));
+        empList2.add(new Employee(5, "Deiveegan", doj, "emp2.jpg"));
+        empList2.add(new Employee(6, "Saravanan", doj, "emp1.jpg"));
+        empList2.add(new Employee(7, "Eduardo", doj, "emp3.jpg"));
         departmentList.add(new Department(2, "Production", empList2));
         
         //we use a no root model
